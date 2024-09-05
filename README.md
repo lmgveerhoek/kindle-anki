@@ -15,5 +15,8 @@ This will generate a new file called `vocab_with_definitions.csv` which will con
 The script reads the `vocab.db` file from your Kindle and extracts the words along with the sentences in which they were used.
 These words are then passed to the OpenAI API to generate definitions for them.
 
+An example .env file is provided in the repository. You will need to create an account on the OpenAI website and get an API key to use this tool.
+Change .env.example to .env and replace the placeholder with your API key.
+
 ## Future improvements
 - Automatically fetch the `vocab.db` file from your Kindle
